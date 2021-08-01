@@ -2,12 +2,12 @@
 
 namespace Alura\BuscadorDeCursos;
 
-use GuzzleHtttp\ClientInterface;
+use GuzzleHttp\ClientInterface;
 use Symfony\Component\DomCrawler\Crawler;
 
 class Buscador {
   private $httpClient;
-  private $crawler;
+  private Crawler $crawler;
 
   public function __construct(ClientInterface $httpClient, Crawler $crawler) {
 
@@ -27,7 +27,7 @@ class Buscador {
     $crawler->addHtmlContent($html);
 
     $elementosCursos =$this-> $crawler->filter('span.card-curso__nome');
-    $cursos = [ ];
+    $cursos = [];
 
     foreach($elementosCursos as $elemento) {
      $cursos[] = $elemento->textContent;
