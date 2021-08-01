@@ -29,7 +29,7 @@
         "phan": "phan --allow-polyfill-parser",
         "exibe-cursos": "Namespace\\Da\\Classe:metodo",
         "ls": "dir",
-        "check": ["@phan", "@cs", "@test"]
+        "check": ["@phan", "@cs", "@test"], "post-update-cmd": ["@test"]
     },
     "scripts-descriptions": {
         "check": "Roda as verificações do código. PHAN, PHPCS, PHPUNIT"

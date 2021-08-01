@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '11b6cc36930d724684a429e42f048e8ab88cf38c',
+        'reference' => 'b8d051df8d0142da2b13e0db92bed6be8b20e2a1',
         'name' => 'vinicius8706/buscador-cursos',
         'dev' => true,
     ),
@@ -592,7 +592,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '11b6cc36930d724684a429e42f048e8ab88cf38c',
+            'reference' => 'b8d051df8d0142da2b13e0db92bed6be8b20e2a1',
             'dev_requirement' => false,
         ),
         'webmozart/assert' => array(
