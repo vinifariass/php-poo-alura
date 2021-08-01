@@ -19,6 +19,19 @@
         "symfony/css-selector": "^5.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "^3.6",
+        "phan/phan": "^4.0"
+    },
+    "scripts": {
+        "test": "phpunit tests\\TestBuscadorDeCursos.php",
+        "cs": "phpcs --standard=PSR12 src",
+        "phan": "phan --allow-polyfill-parser",
+        "exibe-cursos": "Namespace\\Da\\Classe:metodo",
+        "ls": "dir",
+        "check": ["@phan", "@cs", "@test"]
+    },
+    "scripts-descriptions": {
+        "check": "Roda as verificações do código. PHAN, PHPCS, PHPUNIT"
     }
 }
