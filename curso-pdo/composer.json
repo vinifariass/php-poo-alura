@@ -1,0 +1,17 @@
+{
+    "name": "vinicius8706/curso-pdo",
+    "description": "Curso de pdo SQL Lite",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Vinicius8706\\CursoPdo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vinicius Farias",
+            "email": "fsvinicius9@gmail.com"
+        }
+    ],
+    "require": {}
+}
