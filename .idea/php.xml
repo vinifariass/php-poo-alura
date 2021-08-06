@@ -1,12 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration beautifier_path="$PROJECT_DIR$/composer/vendor/bin/phpcbf" tool_path="$PROJECT_DIR$/composer/vendor/bin/phpcs" />
+    </phpcs_settings>
+  </component>
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/../../../../xampp/php" />
       <path value="" />
       <path value="" />
       <path value="$PROJECT_DIR$/../../../../xampp" />
+      <path value="$PROJECT_DIR$/composer/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/composer/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/composer/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/composer/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/composer/vendor/composer" />
+      <path value="$PROJECT_DIR$/composer/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/composer/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/composer/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/composer/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/composer/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/composer/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/composer/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/composer/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/composer/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/composer/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/composer/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/composer/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/composer/vendor/sabre/event" />
+      <path value="$PROJECT_DIR$/composer/vendor/phan/phan" />
+      <path value="$PROJECT_DIR$/composer/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/composer/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/composer/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/composer/vendor/microsoft/tolerant-php-parser" />
+      <path value="$PROJECT_DIR$/composer/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/composer/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/composer/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/composer/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/composer/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/composer/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/composer/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/composer/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/composer/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/composer/vendor/netresearch/jsonmapper" />
+      <path value="$PROJECT_DIR$/composer/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/composer/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/composer/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/composer/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/composer/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/composer/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/composer/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/composer/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/composer/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/composer/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/composer/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/composer/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/composer/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/composer/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/composer/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/composer/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/composer/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/composer/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/composer/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/composer/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/composer/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/composer/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/composer/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/composer/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/composer/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/composer/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/composer/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/composer/vendor/felixfbecker/advanced-json-rpc" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/composer/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
 </project>

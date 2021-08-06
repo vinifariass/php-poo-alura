@@ -1,7 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/composer/src" isTestSource="false" packagePrefix="Vinicius8706\BuscadorCursos\" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/symfony/dom-crawler" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/sabre/event" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/phan/phan" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/microsoft/tolerant-php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/squizlabs/php_codesniffer" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/netresearch/jsonmapper" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/composer/vendor/felixfbecker/advanced-json-rpc" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

@@ -4,7 +4,11 @@
 namespace Alura\Banco\Modelo\Funcionario;
 
 
-class EditorVIdeo
+class EditorVideo extends Funcionario
 {
 
+    public function calculaBonificacao(): float
+    {
+        return 600;
+    }
 }

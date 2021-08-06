@@ -6,24 +6,28 @@ use Alura\Pdo\Infrastructure\Repository\PdoStudentRepository;
 
 require_once 'vendor/autoload.php';
 
+/** @var TYPE_NAME $connection */
 $connection = ConnectionCreator::createConnection();
 $studentRepository = new PdoStudentRepository($connection);
 
 $connection->beginTransaction();
 try {
-    $aStudent = new Student(null,
+    $aStudent = new Student(
+        null,
         'Nico Steppat',
-        new DateTimeImmutable('1985-04-12'));
+        new DateTimeImmutable('1985-04-12')
+    );
 
-    $anotherStudent = new Student(null,
+    $anotherStudent = new Student(
+        null,
         'Sergio Lopes',
-        new DateTimeImmutable('1985-05-01'));
+        new DateTimeImmutable('1985-05-01')
+    );
 
     $studentRepository->save($anotherStudent);
 
     $connection->commit();
-} catch (\RuntimeException $e){
+} catch (\PDOException $e) {
     echo $e->getMessage();
     $connection->rollBack();
 }
-

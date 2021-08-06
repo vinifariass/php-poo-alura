@@ -2,9 +2,9 @@
 
 namespace Alura\Banco\Modelo;
 
-class CPF
+final class CPF
 {
-    private string $numero;
+    private $numero;
 
     public function __construct(string $numero)
     {
