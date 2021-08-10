@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '0e1cc5585fa21a7894b048073f57cbe005e91afb',
+        'reference' => '604dc842a203d5cc5ee75ef8f9ae2b9ffea947a7',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '0e1cc5585fa21a7894b048073f57cbe005e91afb',
+            'reference' => '604dc842a203d5cc5ee75ef8f9ae2b9ffea947a7',
             'dev_requirement' => false,
         ),
         'composer/package-versions-deprecated' => array(
@@ -118,6 +118,15 @@
             'reference' => 'e864bbf5904cb8f5bb334f99209b48018522f042',
             'dev_requirement' => false,
         ),
+        'doctrine/migrations' => array(
+            'pretty_version' => '3.2.1',
+            'version' => '3.2.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../doctrine/migrations',
+            'aliases' => array(),
+            'reference' => '818e31703b4fb353c0c23caa714273fc64efa675',
+            'dev_requirement' => false,
+        ),
         'doctrine/orm' => array(
             'pretty_version' => '2.9.3',
             'version' => '2.9.3.0',
@@ -136,10 +145,34 @@
             'reference' => 'd138f3ab5f761055cab1054070377cfd3222e368',
             'dev_requirement' => false,
         ),
+        'friendsofphp/proxy-manager-lts' => array(
+            'pretty_version' => 'v1.0.5',
+            'version' => '1.0.5.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../friendsofphp/proxy-manager-lts',
+            'aliases' => array(),
+            'reference' => '006aa5d32f887a4db4353b13b5b5095613e0611f',
+            'dev_requirement' => false,
+        ),
+        'laminas/laminas-code' => array(
+            'pretty_version' => '4.4.2',
+            'version' => '4.4.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas/laminas-code',
+            'aliases' => array(),
+            'reference' => '54251ab2b16c41c6980387839496b235f5f6e10b',
+            'dev_requirement' => false,
+        ),
         'ocramius/package-versions' => array(
             'dev_requirement' => false,
             'replaced' => array(
                 0 => '1.11.99',
+            ),
+        ),
+        'ocramius/proxy-manager' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '^2.1',
             ),
         ),
         'psr/cache' => array(
@@ -229,6 +262,15 @@
             'reference' => '5f38c8804a9e97d23e0c8d63341088cd8a22d627',
             'dev_requirement' => false,
         ),
+        'symfony/filesystem' => array(
+            'pretty_version' => 'v5.3.4',
+            'version' => '5.3.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/filesystem',
+            'aliases' => array(),
+            'reference' => '343f4fe324383ca46792cae728a3b6e2f708fb32',
+            'dev_requirement' => false,
+        ),
         'symfony/polyfill-ctype' => array(
             'pretty_version' => 'v1.23.0',
             'version' => '1.23.0.0',
@@ -290,6 +332,15 @@
             'install_path' => __DIR__ . '/../symfony/service-contracts',
             'aliases' => array(),
             'reference' => 'f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb',
+            'dev_requirement' => false,
+        ),
+        'symfony/stopwatch' => array(
+            'pretty_version' => 'v5.3.4',
+            'version' => '5.3.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/stopwatch',
+            'aliases' => array(),
+            'reference' => 'b24c6a92c6db316fee69e38c80591e080e41536c',
             'dev_requirement' => false,
         ),
         'symfony/string' => array(
