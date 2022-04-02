@@ -8,6 +8,6 @@ class MinhaExcecao extends Exception{
 try{
 
 } catch(MinhaExcecao $e){
-  $e-
+  $e;
 }
 throw new MinhaExcecao();
