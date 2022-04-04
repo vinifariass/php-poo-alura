@@ -8,7 +8,7 @@ class Usuario
   private $sobrenome;
   private $senha;
 
-  private function __construct(string $nome, string $senha)
+  public function __construct(string $nome, string $senha)
   {
     $this->setNomeSobrenome($nome);
     $this->senha = $senha;
