@@ -1,6 +1,10 @@
 <?php
 require 'autoload.php';
 
+if (file_exists($arquivo)) {
+    require $arquivo;
+}
+
 $contato = new \App\Alura\Contato($_POST['email'], $_POST['endereco'], $_POST['cep']);
 $usuario = new \App\Alura\Usuario($_POST['nome'], $_POST['senha']);
 

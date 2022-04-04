@@ -10,6 +10,14 @@ class Usuario
 
   private function __construct(string $nome, string $senha)
   {
+    $this->setNomeSobrenome($nome);
+    $this->senha = $senha;
+
+    $this->validaSenha($senha);
+  }
+
+  private function setNomeSobrenome(string $nome)
+  {
     $nomeSobrenome = explode(" ", $nome, 2);
 
     if ($nomeSobrenome[0] === "") {
@@ -22,9 +30,6 @@ class Usuario
     } else {
       $this->sobrenome = $nomeSobrenome[1];
     }
-    $this->senha = $senha;
-
-    $this->validaSenha($senha);
   }
 
   public function getNome(): string
