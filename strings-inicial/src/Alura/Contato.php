@@ -14,7 +14,6 @@ class Contato
   {
 
     $this->email = $email;
-    $this->telefone = $telefone;
 
     if ($this->validaEmail($email) !== false) {
       $this->setEmail($email);
@@ -39,9 +38,9 @@ class Contato
 
   private function validaTelefone(string $telefone): int
   {
-    return  preg_match('/^[0-9]{4}-[0-9]{4}$/', $telefone, $encontrados);
+    return  preg_match('/^[0-9]{4}-[0-9]{4}/', $telefone);
   }
-
+                       
   private function setTelefone(string $telefone): void
   {
     $this->telefone = $telefone;
