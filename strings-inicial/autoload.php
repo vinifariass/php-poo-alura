@@ -16,7 +16,6 @@ spl_autoload_register(function ($classe) {
   $namespaceArquivo = str_replace("\\", DIRECTORY_SEPARATOR, $namespace); //PEGA O SEPARADOR DO SEU DIRETORIO
 
   $arquivo = $diretorio . $namespaceArquivo . '.php';
-  var_dump($arquivo);
   if (file_exists($arquivo)) {
     require $arquivo;
   }
