@@ -46,7 +46,6 @@ class Contato
     return $this->email;
   }
 
-
   public function getEnderecoCep(): string
   {
     $enderecoCep = [$this->endereco, $this->cep];

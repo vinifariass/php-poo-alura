@@ -6,8 +6,9 @@ class Usuario
 {
   private $nome;
   private $sobrenome;
+  private $senha;
 
-  private function __construct(string $nome)
+  private function __construct(string $nome, string $senha)
   {
     $nomeSobrenome = explode(" ", $nome, 2);
 
@@ -21,6 +22,9 @@ class Usuario
     } else {
       $this->sobrenome = $nomeSobrenome[1];
     }
+    $this->senha = $senha;
+
+    $this->validaSenha($senha);
   }
 
   public function getNome(): string
@@ -31,5 +35,21 @@ class Usuario
   public function getSobrenome(): string
   {
     return $this->sobrenome;
+  }
+
+  public function getSenha(): string
+  {
+    return $this->senha;
+  }
+
+  public function validaSenha(string $senha): void
+  {
+    $tamanhoSenha = strlen($senha);
+
+    if ($tamanhoSenha > 6) {
+      $this->senha = $senha;
+    } else {
+      $this->senha = "Senha Inválida";
+    }
   }
 }
